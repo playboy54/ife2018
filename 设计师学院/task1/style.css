@@ -1,0 +1,65 @@
+/*
+* @Author: glasses
+* @Date:   2018-04-25 23:30:56
+* @Last Modified by:   glasses
+* @Last Modified time: 2018-04-26 00:37:01
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+.outer {
+	width: 200px;
+	margin: 0 auto;
+}
+.inner {
+	width: 200px;
+	height: 60px;
+	margin-top: 50px;
+}
+.text {
+	width: 200px;
+	height:30px;
+	margin-bottom: 10px;
+	font-family: 微软雅黑;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	-webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -o-transition: color 0.3s;
+	transition: color 0.3s;
+}
+.line {
+	height: 5px;
+	margin: 0 auto;
+	background-color: blue;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+button {
+	display: block;
+	width: 80px;
+	height: 20px;
+	border: 1px solid #444;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-family: 微软雅黑;
+	font-size: 10px;
+	text-align: center;
+	outline: none;
+}
+.textafter {
+	color: blue;
+}
+.noactiveline {
+	visibility: hidden;
+	width: 0;
+}
+.activeline {
+	visibility: visible;
+	width: 80px;
+}

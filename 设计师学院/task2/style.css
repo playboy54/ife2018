@@ -1,0 +1,65 @@
+/*
+* @Author: glasses
+* @Date:   2018-04-25 13:08:38
+* @Last Modified by:   glasses
+* @Last Modified time: 2018-04-25 14:32:51
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+.outer {
+	width: 676px;
+	height: 237px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	border: none;
+}
+.inner {
+	display: inline-block;
+	width: 61px;
+	height: 68px;
+	border: 2px solid #ebebeb;
+	background-color: #f7f6f6;
+	color: #908f8f;
+	font-family: 微软雅黑;
+	font-size: 20px;
+	line-height: 68px;
+	margin: 27px 20px;
+	text-align: center;
+}
+.special1 {
+	-webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -ms-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    transform: skew(30deg);
+}
+.special2 {
+	-webkit-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+    -ms-transform:scale(0.5);
+    -o-transform:scale(0.5);
+    transform:scale(0.5);
+}
+.special3 {
+	-webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+.special4 {
+	-webkit-transform:translate(10px,20px);
+    -moz-transform:translate(10px,20px);
+    -ms-transform:translate(10px,20px);
+    -o-transform:translate(10px,20px);
+    transform:translate(10px,20px);
+}
+.special5 {
+	-webkit-transform:skew(30deg) scale(1.5) rotate(45deg) translate(10px,20px);
+    -moz-transform:skew(30deg) scale(1.5) rotate(45deg) translate(10px,20px);
+    -ms-transform:skew(30deg) scale(1.5) rotate(45deg) translate(10px,20px);
+    -o-transform:skew(30deg) scale(1.5) rotate(45deg) translate(10px,20px);
+    transform:skew(30deg) scale(1.5) rotate(45deg) translate(10px,20px);
+}
