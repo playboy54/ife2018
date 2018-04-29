@@ -1,0 +1,59 @@
+/*
+* @Author: glasses
+* @Date:   2018-04-29 18:18:02
+* @Last Modified by:   glasses
+* @Last Modified time: 2018-04-29 18:47:11
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 10px;
+}
+.container {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid rgba(1, 0, 0, 0.2);
+}
+header {
+	height: 40px;
+	background-color: 	#6B6B6B;
+	color: white;
+	line-height: 40px;
+	padding-left: 10px;
+}
+h1 {
+	font-size:15px;
+}
+section {
+	height: 80px;
+	border: 0.5px solid 	#ADADAD;
+}
+h2 {
+	width: 80px;
+	height: 80px;
+	font-size: 13px;
+	float: left;
+	background-color: #C2C2C2;
+	line-height: 80px;
+	text-align: center;
+	margin-right: 10px;
+}
+ul {
+	float: left;
+	margin-top: 10px;
+}
+li {
+	list-style: none;
+	float: left;
+}
+.ul-div {
+	margin-right: 30px;
+}
+h4 {
+	display: inline-block;
+	font-size: 12px;
+	float: left;
+	margin-right: 10px;
+}
