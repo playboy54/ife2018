@@ -1,0 +1,65 @@
+/*
+* @Author: glasses
+* @Date:   2018-05-01 11:55:50
+* @Last Modified by:   glasses
+* @Last Modified time: 2018-05-01 12:24:26
+*/
+.btn {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+.btn button {
+	display:inline-block;
+}
+.container {
+	width: 100%;
+	height: 100px;
+}
+.float:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.float-left {
+	width: 30%;
+	height: 100px;
+	float: left;
+	background-color: red;
+}
+.float-right {
+	width: 70%;
+	height: 100px;
+	float: left;
+	background-color: blue;
+}
+.position {
+	position: relative;
+}
+.position-left {
+	width: 30%;
+	height: 100px;
+	background-color: orange;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.position-right {
+	width: 70%;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 30%;
+}
+.flex {
+	display: flex;
+}
+.flex-left {
+	flex-grow: 3;
+	background-color: green;
+}
+.flex-right {
+	flex-grow: 7;
+	background-color: grey;
+}
