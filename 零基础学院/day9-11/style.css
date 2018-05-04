@@ -1,0 +1,455 @@
+/*
+* @Author: glasses
+* @Date:   2018-05-03 13:35:52
+* @Last Modified by:   glasses
+* @Last Modified time: 2018-05-04 21:40:19
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	min-width: 1370px;
+	font-family: sans-serif;
+	color: #141414;
+}
+header {
+	width: 100%;
+	height: 990px;
+	text-align: center;
+	background:url('./images/test_0000s_0002s_0002_图层-1.png');
+	color: rgb(255, 255, 255);
+}
+header > .text {
+	width: 100%;
+	height: 300px;
+	padding-top: 200px;
+}
+header > .text > h1 {
+	font-size: 62px;
+	font-weight: 300;
+	margin-bottom: 80px;
+}
+header > .text > p {
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 300;
+	opacity: 0.7;
+}
+header > .account {
+	width: 970px;
+	height: 270px;
+	margin: 0 auto;
+	border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+header > .account > .account-text {
+	width: 100%;
+	text-transform: uppercase;
+}
+header > .account > .account-text h3 {
+	margin-top: 60px;
+	font-size: 16px;
+	font-weight: 400;
+}
+header > .account > .account-text p {
+	font-size: 12px;
+	font-weight: 300;
+	opacity: 0.3;
+} 
+header > .account > form {
+	margin-top: 50px;
+}
+.inputs {
+	width: 290px;
+	height: 50px;
+	line-height: 50px;
+	border: 0.5px solid rgba(255, 255, 255, 0.5);
+	font-size: 14px;
+	background: transparent;
+	padding-left: 15px;
+	color: white;
+	margin-right: 15px;
+}
+.button {
+	width: 125px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+	color: black;
+	background: white;
+	border: 1px solid white;
+	border-radius: 2px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.feature {
+	width: 100%;
+	height: 710px;
+	background: white;
+    text-align: center;
+}
+.feature-text {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.feature-text > h4 {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.feature-text > p {
+	font-size: 42px;
+	font-weight: 300;
+
+}
+.main-item {
+	width: 450px;
+	height: 120px;
+	margin: 30px 80px;
+	display: inline-block;
+}
+.main-item > i{
+	font-size: 40px;
+	float: left;
+}
+.main-item > .item {
+	text-align: left;
+	margin-left: 10px;
+	float: left;
+}
+.main-item > .item > h3 {
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	font-weight: 300;
+}
+.main-item > .item > p {
+	font-size: 16px;
+	opacity: 0.7;
+}
+.call {
+	width: 100%;
+	height: 800px;
+	background: url('./images/test_0002s_0002s_0005_图层-2.png');
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: white;
+}
+.call > .left {
+	margin-right: 130px;
+}
+.call >.left > h2 {
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 45px;
+	margin-bottom: 40px;
+}
+.call > .left > p {
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 40px;
+	opacity: 0.7;
+}
+.call > .left > button {
+	width: 230px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	margin-right: 30px;
+}
+.call > .left > .button2 {
+	background: transparent;
+	color: white;
+}
+.call > .right {
+	padding: 30px 0 30px 20px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-right: none;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.call > .right > .round {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid rgba(255, 255, 255,0.5);
+	margin-right: 20px;
+}
+.feature-19 {
+	width: 100%;
+	height: 580px;
+	text-align: center;
+}
+.feature-19 > h2 {
+	margin-top: 90px;
+	font-size: 42px;
+	text-transform: capitalize;
+	font-weight: 300;
+}
+.box {
+	margin-top: 90px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.box-item {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.box-item img{
+	display: block;
+}
+.box-item .img1{
+	margin-left:75px;
+	margin-bottom: 45px; 
+}
+.feature-14 {
+	width: 100%;
+	height: 1000px;
+}
+.feature-14 img {
+	width: 570px;
+	height: 350px;
+}
+.feature-14 h3 {
+	font-size: 20px;
+	font-weight: 400;
+}
+.feature-14 p {
+	font-size: 16px;
+	opacity: 0.7;
+	font-weight: 300;
+}
+.feature-14 > .main {
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+.feature-14 .img1 {
+	margin-bottom: 80px;
+}
+.feature-14 .div1 {
+	margin-bottom: 80px;
+}
+.team {
+	width: 100%;
+	height: 1085px;
+	text-align: center;
+}
+.team > h2 {
+	padding-top: 90px;
+	font-size: 42px;
+	font-weight: 400;
+}
+.team  > p {
+	font-size: 18px;
+	font-weight: 300;
+	opacity: 0.7;
+	padding-bottom: 50px;
+}
+.team > .items > .div-item {
+	display: inline-block;
+	width: 470px;
+	height: 345px;
+	margin: 15px;
+	position: relative;
+}
+.team > .items > .div-item > img {
+	width: 470px;
+	height: 345px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+
+}
+.team > .items > .div-item > .item-text {
+	width: 470px;
+	height: 345px;
+	background: rgb(0, 0, 0,0.65);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	text-align: center;
+	opacity: 0;
+}
+.team > .items > .div-item > .item-text:hover {
+	opacity: 0.7;
+}
+.team > .items > .div-item > .item-text > h4 {
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	padding-top: 110px;
+}
+.team  > .items > .div-item > .item-text > p {
+	font-size: 12px;
+	font-weight: 400;
+	color: rgb(206, 204, 203);
+	opacity: 0.4;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+.team  > .items > .div-item > .item-text > a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	text-decoration: none;
+	border-radius: 50%;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	font-size: 30px;
+}
+.contact {
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.contact > .left {
+	width: 470px;
+	height: 560px;
+	border: 1px solid rgba(1, 1, 1, 0.5);
+	border-radius: 5px;
+	text-align: center;
+}
+.contact > .left h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+.contact > .left > form {
+	text-align: center;
+}
+.contact > .left >form > * {
+	display: block;
+	margin-bottom: 30px;
+	margin-left: 45px;
+}
+.contact > .left >form > input {
+	width: 370px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid rgba(1, 1, 1, 0.5);
+	font-size: 14px;
+	padding-left: 10px;
+}
+.contact > .left >form >  textarea {
+	width: 370px;
+	height: 140px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+.contact > .left >form > .btn {
+	width: 380px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid rgba(1, 1, 1, 0.5);
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+}
+.contact > .right {
+	width: 470px;
+	height: 560px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 120px;
+	text-align: left;
+}
+.contact > .right > h2 {
+	margin-top: 80px;
+	font-size: 42px;
+	font-weight: 300;
+	margin-bottom: 30px;
+
+}
+.contact > .right > p {
+	font-size: 16px;
+	opacity: 0.7;
+	font-weight: 300;
+	margin-bottom: 60px;
+}
+.contact > .right ul {
+	list-style: none;
+}
+.contact > .right ul li {
+	display: flex;
+	margin: 25px 0;
+}
+.contact > .right ul li i {
+	font-size: 25px;
+	margin-right: 10px;
+}
+.contact > .right ul li p {
+	font-size: 16px;
+}
+footer {
+	width: 100%;
+	height: 400px;
+	background: rgb(20, 20, 20);
+}
+footer > .list {
+	list-style: none;
+	display: flex;
+	color: rgba(255, 255, 255, 0.3);
+	margin: 0 200px;
+}
+footer > .list > .item {
+  flex: 1 170px;
+  margin-top: 80px;
+}
+footer > .list > .item:last-child {
+  flex: 0 270px;
+}
+footer > .list > .item + .item {
+  margin-left: 130px;
+}
+footer > .list > .item h5 {
+	font-size: 14px;
+	font-weight: 400;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+	color: white;
+}
+footer > .list > .item > .item-link {
+	font-size: 14px;
+	text-decoration: none;
+	display: block;
+    margin-top: 22px;
+    color: white;
+    opacity: 0.3;
+    font-weight: 300;
+}
+footer > .list > .item > .item-text {
+  margin-top: 18px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+footer > .list > .item > .special {
+	text-decoration: none;
+	color: white;
+}
